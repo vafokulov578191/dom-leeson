@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 364px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    border: 1px solid black;
+}
+
+.block_top_img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.block_bottom_about {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    text-align: start;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block_bottom_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block_bottom_head_t {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.block_bottom_head_t .bottom__block_head_t_sp {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.block_bottom_head_t .p__bottom__block__head {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 16px;
+}
+
+.grade {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 30px;
+}
+
+.grade_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grade_item .grade__block_head_t_sp1 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.grade_item1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grade_item1 .grade__block_head_t_sp2 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.grade_item2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grade_item2 .grade__block_head_t_sp3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.favorites .favorites_btn{
+    width: 305px;
+    height: 55px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.img_top {
+    width: 115px;
+    height: auto;
+}
+
